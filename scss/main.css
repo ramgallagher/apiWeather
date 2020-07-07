@@ -157,6 +157,14 @@ button i {
   border-radius: 15px;
 }
 
+.cityContainer:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  cursor: pointer;
+}
+
 .cityContainer h5 {
   margin: 0;
   font-family: Poppins;
@@ -319,6 +327,26 @@ button i {
           animation: fadeIn;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
+}
+
+.goBackButton {
+  background: #5F6CAF;
+  border-radius: 7px;
+  -webkit-transform: translate(-50px);
+          transform: translate(-50px);
+}
+
+.goBackButton:hover {
+  background: #FFBD69;
+  cursor: pointer;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+.goBackButton button {
+  border-radius: 10px;
+  -webkit-transform: rotate(-179.83deg);
+          transform: rotate(-179.83deg);
 }
 
 header {
