@@ -413,6 +413,7 @@ header span {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+    margin-top: 7em;
   }
   .goBackButton {
     -webkit-transform: translateY(30px);
