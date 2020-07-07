@@ -1,0 +1,29 @@
+@import './mixin';
+@include mobile {
+    header {
+        justify-content: center;
+        a {
+            text-align: center;
+            margin: 0.3em auto;
+            font-size: 2.5em;
+        }
+    }
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .blockLeft {
+        text-align: center;
+        align-items: center;
+    }
+    .mainImage img {
+        width: 320px;
+    }
+    .mainContainer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .goBackButton {
+        transform: translateY(30px);
+    }
+}

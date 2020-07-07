@@ -375,4 +375,48 @@ header a {
 header span {
   color: #FFBD69;
 }
+
+@media (max-width: 768px) {
+  header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header a {
+    text-align: center;
+    margin: 0.3em auto;
+    font-size: 2.5em;
+  }
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .blockLeft {
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mainImage img {
+    width: 320px;
+  }
+  .mainContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .goBackButton {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+}
 /*# sourceMappingURL=main.css.map */
