@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,100;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://kit.fontawesome.com/61213d42e2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./scss/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="canvas">
+        <section id="welcomePage">
+            <header class="animated fadeInLeft animate__slow">
+                <a href="index.html">Api <span>Weather</span></a>
+            </header>
+
+            <div class="container">
+                <div class="blockLeft animated fadeIn">
+                    <h2>Weather <span>Forecast</span></h2>
+
+                    <div class="inputContainer">
+                        <input class="inputValue" type="text" placeholder="Search ZIP, City or Place...">
+                        <button type="submit" id="btnSearch"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="mainImage animated fadeIn">
+                    <img src="./img/girl.svg" alt="">
+                </div>
+
+            </div>
+        </section>
+        <section id="weatherPage" class="weatherResults animated fadeIn">
+            <header>
+                <a href="index.html">Api <span>Weather</span></a>
+            </header>
+            <div class="mainContainer">
+
+                <div class="cityContainer animated fadeIn">
+                    <div class="twoElementsContainer">
+                        <div id="icon" class="weatherIcon">
+                            <img src="./icons/unknown.png" alt="">
+                        </div>
+                        <div class="cityAndDescriptionContainer">
+                            <h3 id="description"></h3>
+                            <h5 id="city"></h5>
+                        </div>
+                    </div>
+                    <div class="tempContainer">
+                        <h1 class="temp"></h1>
+
+                    </div>
+                    <div class="fullDescription">
+                        <div class="minMax">
+                            <div class="minTemp">
+                                <i class="fas fa-temperature-low"> </i>
+                                <p id="minimum"></p>
+                            </div>
+                            <div class="maxTemp">
+                                <i class="fas fa-temperature-high"></i>
+                                <p id="maximum"></p>
+                            </div>
+                        </div>
+                        <div class="condition">
+                            <div class="wind">
+                                <i class="fas fa-wind"></i>
+                                <p id="windSpeed"></p>
+                            </div>
+                            <div class="rain">
+                                <i class="fas fa-umbrella"></i>
+                                <p id="humidity"> </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    </>
+
+
+
+
+
+
+                </div>
+
+
+
+        </section>
+
+        </div>
+</body>
+<script src="./app.js"></script>
+
+</html>

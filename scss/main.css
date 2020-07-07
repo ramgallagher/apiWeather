@@ -1,0 +1,350 @@
+body {
+  background-color: 0;
+}
+
+body {
+  background: rgba(227, 246, 254, 0.96);
+  background-image: url(/img/fondo.svg);
+  background-repeat: no-repeat;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: relative;
+  margin-top: 3em;
+}
+
+.blockLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.blockLeft h2 {
+  width: 400px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  color: #5F6CAF;
+  line-height: 0;
+  margin-bottom: 0;
+}
+
+.blockLeft span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 114px;
+  color: #413F5A;
+}
+
+.inputContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inputContainer ::-webkit-input-placeholder {
+  color: #797979;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.inputContainer :-ms-input-placeholder {
+  color: #797979;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.inputContainer ::-ms-input-placeholder {
+  color: #797979;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.inputContainer ::placeholder {
+  color: #797979;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+img {
+  width: 450px;
+}
+
+input {
+  width: 250px;
+  height: 35px;
+  background: #FFFFFF;
+  border: none;
+  -webkit-box-shadow: 0px 4px 20px rgba(44, 52, 62, 0.1);
+          box-shadow: 0px 4px 20px rgba(44, 52, 62, 0.1);
+  padding-left: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(59, 59, 59, 0.53);
+}
+
+button {
+  width: 45px;
+  height: 38px;
+  background: #5F6CAF;
+  border: none;
+  -webkit-box-shadow: 0px 4px 20px rgba(44, 52, 62, 0.1);
+          box-shadow: 0px 4px 20px rgba(44, 52, 62, 0.1);
+  cursor: pointer;
+}
+
+button i {
+  font-size: 16px;
+  color: white;
+}
+
+.mainContainer {
+  margin-top: 10em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cityContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  height: 300px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 3px 20px rgba(44, 52, 62, 0.3);
+          box-shadow: 0px 3px 20px rgba(44, 52, 62, 0.3);
+  border-radius: 15px;
+}
+
+.cityContainer h5 {
+  margin: 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  color: #A2A0B9;
+}
+
+.cityContainer h3 {
+  margin: 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  color: #5F6CAF;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.cityContainer h2 {
+  margin: 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  /* identical to box height, or 114px */
+  color: #3F3D56;
+}
+
+.cityContainer h1 {
+  margin: 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  color: #5F6CAF;
+  font-size: 75px;
+  height: 100px;
+}
+
+.weatherIcon img {
+  width: 65px;
+}
+
+.twoElementsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.cityAndDescriptionContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 25px;
+}
+
+.fullDescription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 175px;
+}
+
+.fullDescription p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2F2E41;
+}
+
+.minMax,
+.condition {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.minTemp,
+.maxTemp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 50px;
+}
+
+.minTemp i,
+.maxTemp i {
+  color: #A2A0B9;
+  font-size: 18px;
+}
+
+.wind {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 85px;
+}
+
+.wind i {
+  color: #A2A0B9;
+  font-size: 18px;
+}
+
+.rain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 65px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.rain i {
+  color: #A2A0B9;
+  font-size: 18px;
+}
+
+.weatherResults,
+.blockLeft,
+.mainImage {
+  -webkit-animation: fadeIn;
+          animation: fadeIn;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: fadeInLeft;
+          animation: fadeInLeft;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+header a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 75px;
+  /* identical to box height */
+  letter-spacing: -0.075em;
+  color: #5F6CAF;
+  margin-left: 6.3em;
+  text-decoration: none;
+}
+
+header span {
+  color: #FFBD69;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    animation: fadeInLeft;
+    animation-duration: 3s;
+    a {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 75px;
+        /* identical to box height */
+        letter-spacing: -0.075em;
+        color: #5F6CAF;
+        margin-left: 6.3em;
+        text-decoration: none;
+    }
+    span {
+        color: #FFBD69;
+    }
+}
