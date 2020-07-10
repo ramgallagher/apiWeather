@@ -10,6 +10,7 @@
 .blockLeft {
     display: flex;
     flex-direction: column;
+
     h2 {
         width: 400px;
         font-family: Poppins;
@@ -20,6 +21,7 @@
         line-height: 0;
         margin-bottom: 0;
     }
+
     span {
         font-family: Poppins;
         font-style: normal;
@@ -32,7 +34,8 @@
 
 .inputContainer {
     display: flex;
-     ::placeholder {
+
+    ::placeholder {
         color: rgb(121, 121, 121);
         font-family: Poppins;
         font-weight: 400;
@@ -64,6 +67,7 @@ button {
     border: none;
     box-shadow: 0px 4px 20px rgba(44, 52, 62, 0.1);
     cursor: pointer;
+
     i {
         font-size: 16px;
         color: white;
@@ -80,36 +84,40 @@ button {
 .cityContainer {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 300px;
+    width: 420px;
+    height: 420px;
     justify-content: space-around;
     align-items: center;
     background: #FFFFFF;
     box-shadow: 0px 3px 20px rgba(44, 52, 62, 0.3);
     border-radius: 15px;
+
     &:hover {
         transform: scale(1.10);
         transition: 0.5s all ease;
         cursor: pointer;
     }
+
     h5 {
         margin: 0;
         font-family: Poppins;
         font-style: normal;
         font-weight: 300;
-        font-size: 20px;
+        font-size: 23px;
         color: #A2A0B9;
     }
+
     h3 {
         margin: 0;
         font-family: Poppins;
         font-style: normal;
         font-weight: 300;
-        font-size: 20px;
+        font-size: 28px;
         color: #5F6CAF;
         font-weight: 700;
         text-transform: capitalize;
     }
+
     h2 {
         margin: 0;
         font-family: Poppins;
@@ -119,14 +127,15 @@ button {
         /* identical to box height, or 114px */
         color: #3F3D56;
     }
+
     h1 {
         margin: 0;
-        font-family: Poppins;
+        font-family: 'Oswald', sans-serif;
         font-style: normal;
         font-weight: 700;
         color: #5F6CAF;
-        font-size: 75px;
-        height: 100px;
+        font-size: 150px;
+        height: 200px;
     }
 }
 
@@ -150,6 +159,7 @@ button {
     display: flex;
     justify-content: space-between;
     width: 175px;
+
     p {
         font-family: Poppins;
         font-style: normal;
@@ -172,6 +182,7 @@ button {
     align-items: center;
     align-content: center;
     width: 50px;
+
     i {
         color: #A2A0B9;
         font-size: 18px;
@@ -184,6 +195,7 @@ button {
     align-items: center;
     align-content: center;
     width: 85px;
+
     i {
         color: #A2A0B9;
         font-size: 18px;
@@ -196,6 +208,7 @@ button {
     align-content: center;
     width: 65px;
     justify-content: space-evenly;
+
     i {
         color: #A2A0B9;
         font-size: 18px;
@@ -213,11 +226,13 @@ button {
     background: #5F6CAF;
     border-radius: 7px;
     transform: translate(-50px);
+
     &:hover {
         background: #FFBD69;
         cursor: pointer;
         transition: 0.5s all ease;
     }
+
     button {
         border-radius: 10px;
         transform: rotate(-179.83deg);
