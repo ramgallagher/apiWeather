@@ -418,6 +418,22 @@ header span {
   .goBackButton {
     -webkit-transform: translateY(30px);
             transform: translateY(30px);
+    width: 90%;
+  }
+}
+
+@media (min-width: 1004px) {
+  .container {
+    margin-top: 6em;
+  }
+  img {
+    width: 650px;
+  }
+  .blockLeft h2 {
+    font-size: 80px;
+  }
+  .blockLeft span {
+    font-size: 62px;
   }
 }
 /*# sourceMappingURL=main.css.map */

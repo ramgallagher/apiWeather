@@ -26,5 +26,29 @@
     }
     .goBackButton {
         transform: translateY(30px);
+        width: 90%;
+
+        
+    }
+}
+
+@include laptop {
+
+    .container {
+        margin-top: 6em;
+    }
+    
+    img {
+        width: 650px;
+    }
+
+    .blockLeft {
+        h2 {
+            font-size: 80px;
+
+        }
+        span {
+            font-size: 62px;
+        }
     }
 }
