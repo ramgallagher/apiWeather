@@ -26,7 +26,7 @@ body {
   -ms-flex-line-pack: center;
       align-content: center;
   position: relative;
-  margin-top: 3em;
+  margin-top: 5em;
 }
 
 .blockLeft {
@@ -124,7 +124,7 @@ button i {
 }
 
 .mainContainer {
-  margin-top: 10em;
+  margin-top: 8em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -422,12 +422,12 @@ header span {
   }
 }
 
-@media (min-width: 1004px) {
+@media (max-width: 1440px) {
   .container {
-    margin-top: 6em;
+    margin-top: 7em;
   }
   img {
-    width: 650px;
+    width: 550px;
   }
   .blockLeft h2 {
     font-size: 80px;

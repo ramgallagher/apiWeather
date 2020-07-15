@@ -27,25 +27,19 @@
     .goBackButton {
         transform: translateY(30px);
         width: 90%;
-
-        
     }
 }
 
 @include laptop {
-
     .container {
-        margin-top: 6em;
+        margin-top: 7em;
     }
-    
     img {
-        width: 650px;
+        width: 550px;
     }
-
     .blockLeft {
         h2 {
             font-size: 80px;
-
         }
         span {
             font-size: 62px;

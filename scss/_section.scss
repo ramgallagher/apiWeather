@@ -4,13 +4,12 @@
     align-items: center;
     align-content: center;
     position: relative;
-    margin-top: 3em;
+    margin-top: 5em;
 }
 
 .blockLeft {
     display: flex;
     flex-direction: column;
-
     h2 {
         width: 400px;
         font-family: Poppins;
@@ -21,7 +20,6 @@
         line-height: 0;
         margin-bottom: 0;
     }
-
     span {
         font-family: Poppins;
         font-style: normal;
@@ -34,8 +32,7 @@
 
 .inputContainer {
     display: flex;
-
-    ::placeholder {
+     ::placeholder {
         color: rgb(121, 121, 121);
         font-family: Poppins;
         font-weight: 400;
@@ -67,7 +64,6 @@ button {
     border: none;
     box-shadow: 0px 4px 20px rgba(44, 52, 62, 0.1);
     cursor: pointer;
-
     i {
         font-size: 16px;
         color: white;
@@ -75,7 +71,7 @@ button {
 }
 
 .mainContainer {
-    margin-top: 10em;
+    margin-top: 8em;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -91,13 +87,11 @@ button {
     background: #FFFFFF;
     box-shadow: 0px 3px 20px rgba(44, 52, 62, 0.3);
     border-radius: 15px;
-
     &:hover {
         transform: scale(1.10);
         transition: 0.5s all ease;
         cursor: pointer;
     }
-
     h5 {
         margin: 0;
         font-family: Poppins;
@@ -106,7 +100,6 @@ button {
         font-size: 23px;
         color: #A2A0B9;
     }
-
     h3 {
         margin: 0;
         font-family: Poppins;
@@ -117,7 +110,6 @@ button {
         font-weight: 700;
         text-transform: capitalize;
     }
-
     h2 {
         margin: 0;
         font-family: Poppins;
@@ -127,7 +119,6 @@ button {
         /* identical to box height, or 114px */
         color: #3F3D56;
     }
-
     h1 {
         margin: 0;
         font-family: 'Oswald', sans-serif;
@@ -159,7 +150,6 @@ button {
     display: flex;
     justify-content: space-between;
     width: 175px;
-
     p {
         font-family: Poppins;
         font-style: normal;
@@ -182,7 +172,6 @@ button {
     align-items: center;
     align-content: center;
     width: 50px;
-
     i {
         color: #A2A0B9;
         font-size: 18px;
@@ -195,7 +184,6 @@ button {
     align-items: center;
     align-content: center;
     width: 85px;
-
     i {
         color: #A2A0B9;
         font-size: 18px;
@@ -208,7 +196,6 @@ button {
     align-content: center;
     width: 65px;
     justify-content: space-evenly;
-
     i {
         color: #A2A0B9;
         font-size: 18px;
@@ -226,13 +213,11 @@ button {
     background: #5F6CAF;
     border-radius: 7px;
     transform: translate(-50px);
-
     &:hover {
         background: #FFBD69;
         cursor: pointer;
         transition: 0.5s all ease;
     }
-
     button {
         border-radius: 10px;
         transform: rotate(-179.83deg);
